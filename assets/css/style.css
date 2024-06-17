@@ -38,7 +38,14 @@ a {
   font-family: Poppins;
   font-size: 1.8;
   font-weight: 600;
-  /* padding: 12px 24px; */
+}
+
+.hero .img-block span {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #0d1111;
+  display: block;
 }
 
 /* ========== Header ========== */
@@ -141,7 +148,7 @@ a {
   line-height: 1.78;
   color: #9da6a5;
   margin-top: 46px;
-  max-width: 374px;
+  max-width: 360px;
 }
 
 .hero .cta {
@@ -194,6 +201,7 @@ a {
   margin-left: auto;
 }
 
+/* Courses */
 .hero .img-block .stats-courses {
   position: absolute;
   left: 16px;
@@ -226,12 +234,9 @@ a {
 
 .hero .stats-courses span {
   max-width: 55px;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #0d1111;
 }
 
+/* Schedules */
 .hero .stats-schedules {
   position: absolute;
   bottom: 46px;
@@ -243,13 +248,7 @@ a {
 }
 
 .hero .stats-schedules span {
-  display: block;
   padding-bottom: 16px;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #0d1111;
-  text-align: center;
 }
 
 .hero .stats-schedules .stats-info {
@@ -283,12 +282,7 @@ a {
 }
 
 .hero .img-block .students-our span {
-  font-size: 10px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #0d1111;
   margin-bottom: 8px;
-  display: block;
 }
 
 .hero .students-our .students-list {
@@ -320,4 +314,73 @@ a {
   line-height: 33px;
   text-align: center;
   color: #fff;
+}
+
+/* ========== Features ========== */
+.feature {
+  margin-top: 65px;
+  padding: 65px 0;
+}
+
+.feature .feature-top {
+  max-width: 591px;
+}
+
+.feature .feature-top .item {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #767e7e;
+  margin-bottom: 18px;
+}
+
+.feature .feature-top .title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+  color: #0d1111;
+  margin-bottom: 18px;
+}
+
+.feature .feature-top .desc {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #767e7e;
+}
+
+.feature .features-list {
+  display: flex;
+  gap: 200px;
+  margin-top: 80px;
+}
+
+.feature .features-list .feature-item {
+  width: 19%;
+}
+
+.feature .feature-item .img-block-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 106px;
+  border-radius: 4px;
+  background: var(--features-color, #ffc147);
+  margin-bottom: 26px;
+}
+
+.feature .feature-info .title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #0d1111;
+  margin-bottom: 16px;
+}
+
+.feature .feature-info .desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69;
+  color: #9da6a5;
 }
