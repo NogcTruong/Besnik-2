@@ -365,7 +365,7 @@ a {
   align-items: center;
   width: 102px;
   height: 106px;
-  border-radius: 4px;
+  border-radius: 16px;
   background: var(--features-color, #ffc147);
   margin-bottom: 26px;
 }
